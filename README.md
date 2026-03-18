@@ -1,18 +1,49 @@
-## Getting Started
+# Lab06 - GUI Application (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Танилцуулга
 
-## Folder Structure
+Энэ лабораторийн ажлаар Java хэл ашиглан энгийн хэрэглэгчийн график интерфейс (GUI) хийж гүйцэтгэлээ.
 
-The workspace contains two folders by default, where:
+## Зорилго
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Java Swing ашиглан GUI бүтээж сурах
+* Хэрэглэгчээс input авч боловсруулах ойлголт авах
+* GitHub дээр төслөө байршуулж сурах
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Хийсэн програм
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Энэ төсөлд Login дэлгэц хийсэн.
 
-## Dependency Management
+### Үүнд:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Username оруулах хэсэг
+* Password оруулах хэсэг
+* Login товч
+
+## Ажиллах зарчим
+
+Хэрэглэгч username болон password оруулж Login товч дарахад тухайн мэдээллийг console дээр хэвлэнэ.
+
+## Жишээ
+
+```
+Username: admin
+Password: 1234
+```
+
+## Screenshot
+
+Доорх зурагт програмын дэлгэцийг харуулна.
+
+<img width="476" height="358" alt="image" src="https://github.com/user-attachments/assets/3aa3e5e5-1ea9-4ac2-a9ab-26e4902023bb" />
+
+
+## Ашигласан технологи
+
+* Java
+* Java Swing
+* GitHub
+
+## Дүгнэлт
+
+Энэхүү лабораторийн ажлаар GUI програм хэрхэн хийх, event (товч дарах үйлдэл) хэрхэн ажилладгийг ойлгож авлаа.
